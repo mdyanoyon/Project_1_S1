@@ -1,0 +1,97 @@
+/* About Us Section Start Here */
+.about_us{
+    margin: 100px 15px;
+    background-color: rgba(163,162,163,.11);
+}
+/* First Row */
+.first_row{
+    padding: 70px 0;
+}
+.title{
+    min-height: 200px;
+    /* border: 1px solid; */
+}
+.details{
+    min-height: 320px;
+    /* border: 1px solid; */
+}
+.title h1{
+    text-align: center;
+    color: #273043;
+    font-size: 68px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Work Sans',sans-serif;
+}
+.details p{
+    font-size: 16px;
+    color: rgba(39,48,67,.5);
+    line-height: 1.5;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    letter-spacing: -.4px;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 400;
+}
+.details a{
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ad1e56;
+    padding-left: 45px;
+    background-color: transparent;
+}
+.details a:before {
+    width: 26px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: '';
+    background-color: #ad1e56;
+    transition: all .15s ease-in-out;
+}
+.details a:after {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 17px;
+    top: calc(50% - 3px);
+    content: '';
+    border-right: 2px solid #ad1e56;
+    border-bottom: 2px solid #ad1e56;
+    transform: rotate(-45deg);
+    transition: all .15s ease-in-out;
+}
+.details a:hover::before{
+    width: 36px;
+}
+.details a:hover::after{
+    left: 28px;
+}
+
+/* Second Row */
+
+.second_row{
+    padding: 70px 0;
+}
+.s_item{
+
+}
+.second_row h3{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    color: #273043;
+    line-height: 1;
+}
+.second_row h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #273043;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-align: left;
+}
